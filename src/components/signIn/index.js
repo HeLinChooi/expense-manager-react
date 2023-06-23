@@ -42,8 +42,8 @@ class SignInForm extends Component {
     }
 
     componentDidMount() {
-        analytics.initGA();
-        analytics.logPageView();
+        // analytics.initGA();
+        // analytics.logPageView();
     }
 
     callGoogleSignIn = () => {
@@ -293,5 +293,6 @@ class SignInForm extends Component {
 }
 
 export default withRouter(SignInPage);
+// export default SignInPage; 
 
 export { SignInForm };
